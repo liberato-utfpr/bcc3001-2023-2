@@ -14,7 +14,7 @@ class ListaDupla{
                 this->prox = nullptr;
             }
 
-            No(int dado, No* ant, No* prox,){
+            No(int dado, No* ant, No* prox){
                 this->dado = dado;
                 this->ant = ant;
                 this->prox = prox;
@@ -27,8 +27,8 @@ class ListaDupla{
     
 
     public:
-        ListaEncadeada();    
-        ~ListaEncadeada();    
+        ListaDupla();    
+        ~ListaDupla();    
 
         bool anexar(int elemento);
         bool inserir(int elemento, int posicao);
