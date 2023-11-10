@@ -16,10 +16,10 @@ void printVetor(int* v, int tam){
 int main(){
     int v1[] = {5,65, 8, 23, 1, 15};
     printVetor(v1, 6);
-    // bubble_sort_original(v1, 6);
-    // bubble_sort_modificado(v1, 6);
+    
     selection_sort(v1, 6);
     // insertion_sort(v1, 6);
+    // bubble_sort(v1, 6);
     printVetor(v1, 6);
 
 
